@@ -14,6 +14,7 @@
 		27AC8FA11B5DE2520092D170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AC8FA01B5DE2520092D170 /* Images.xcassets */; };
 		27AC8FA41B5DE2520092D170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AC8FA21B5DE2520092D170 /* LaunchScreen.xib */; };
 		27AC8FB01B5DE2520092D170 /* Animation01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AC8FAF1B5DE2520092D170 /* Animation01Tests.m */; };
+		27FD5E9D1B857DC300713FB1 /* ZYInsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FD5E9C1B857DC300713FB1 /* ZYInsetTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		27AC8FA91B5DE2520092D170 /* Animation01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Animation01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AC8FAE1B5DE2520092D170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27AC8FAF1B5DE2520092D170 /* Animation01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animation01Tests.m; sourceTree = "<group>"; };
+		27FD5E9B1B857DC300713FB1 /* ZYInsetTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYInsetTextField.h; sourceTree = "<group>"; };
+		27FD5E9C1B857DC300713FB1 /* ZYInsetTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYInsetTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				27AC8FA01B5DE2520092D170 /* Images.xcassets */,
 				27AC8FA21B5DE2520092D170 /* LaunchScreen.xib */,
 				27AC8F931B5DE2520092D170 /* Supporting Files */,
+				27FD5E9B1B857DC300713FB1 /* ZYInsetTextField.h */,
+				27FD5E9C1B857DC300713FB1 /* ZYInsetTextField.m */,
 			);
 			path = Animation01;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FD5E9D1B857DC300713FB1 /* ZYInsetTextField.m in Sources */,
 				27AC8F9C1B5DE2520092D170 /* ViewController.m in Sources */,
 				27AC8F991B5DE2520092D170 /* AppDelegate.m in Sources */,
 				27AC8F961B5DE2520092D170 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				27AC8FB51B5DE2520092D170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AC8FB61B5DE2520092D170 /* Build configuration list for PBXNativeTarget "Animation01Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				27AC8FB81B5DE2520092D170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
